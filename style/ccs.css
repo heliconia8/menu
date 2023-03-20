@@ -1,0 +1,43 @@
+div{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+#p1 {
+    float: left;
+    margin-left: 10px;
+    color:brown; 
+}
+
+#p2 {
+    float: left;
+    margin-left: 20px;
+    color:brown; 
+}
+
+#p3 {
+    float: left;
+    margin-left: 30px;
+    color:brown; 
+}
+
+#p4 {
+    float: left;
+    margin-left: 40px;
+    color: rgb(255, 38, 38);
+}
+@font-face {
+    font-family: "ofont_Mont";
+    src: url(../fonts/ofont.ru_Montserrat.ttf);
+}
+#p1 , #p2 , #p3 { font-family: "ofont_Mont";
+
+}
+
+@font-face {
+    font-family: "neuebold";
+    src: url(../fonts/bebas-neue-bold.ttf);
+}
+#p4 { font-family: "neuebold";
+
+}
